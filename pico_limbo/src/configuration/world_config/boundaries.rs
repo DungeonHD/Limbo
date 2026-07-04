@@ -28,7 +28,7 @@ impl Default for BoundariesConfig {
         Self::Enabled(EnabledBoundariesConfig {
             enabled: true,
             min_y: -64,
-            teleport_message: "<red>You have reached the bottom of the world.</red>".into(),
+            teleport_message: "<red>You have reached the bottom of the world!</red>".into(),
         })
     }
 }

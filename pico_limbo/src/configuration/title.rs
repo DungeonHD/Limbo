@@ -30,8 +30,8 @@ impl Default for TitleConfig {
     fn default() -> Self {
         Self::Enabled(EnabledTitleConfig {
             enabled: false,
-            title: "<bold>Welcome!</bold>".to_string(),
-            subtitle: "Enjoy your stay".to_string(),
+            title: "<bold><red>Welcome!</red></bold>".to_string(),
+            subtitle: "<white>Enjoy your stay</white>".to_string(),
             fade_in: 10,
             stay: 70,
             fade_out: 20,

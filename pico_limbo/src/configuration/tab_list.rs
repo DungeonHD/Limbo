@@ -35,8 +35,8 @@ impl Default for TabListConfig {
         Self {
             mode: TabListMode::Enabled(EnabledTabListConfig {
                 enabled: true,
-                header: "<bold>Welcome to PicoLimbo</bold>".to_string(),
-                footer: "<green>Enjoy your stay!</green>".to_string(),
+                header: "<green>Welcome to the Limbo!</green>".to_string(),
+                footer: "<yellow>You are playing on </yellow><aqua>mc.dungeonhd.net</aqua>".to_string(),
             }),
             player_listed: true,
         }
